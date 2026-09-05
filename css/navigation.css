@@ -2,7 +2,6 @@
 .navigation {
   display: flex;
   padding: 12px 24px;
-  background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   align-items: center;
   justify-content: space-between;
@@ -13,20 +12,17 @@
 .navigation__logo {
   font-weight: bold;
   font-size: 20px;
-  color: #111111;
 }
 
 /* Lista de Links: tira as bolinhas e coloca lado a lado */
 .navigation__list {
   display: flex;
-  list-style: none; /* Remove as bolinhas da lista */
   justify-content: center;
 }
 
 /* Estilo de cada link do menu */
 .navigation__link {
   text-decoration: none; /* Remove o sublinhado */
-  color: #333333;        /* Cor escura em vez do azul padrão */
   font-size: 14px;
   font-weight: 500;
   padding: 0 5px;
