@@ -1,0 +1,72 @@
+
+.form-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 420px;
+  margin: 40px auto;
+}
+
+.form-card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 20px 0;
+}
+
+.form__group {
+  margin-bottom: 16px;
+}
+
+.form__label {
+  display: block;
+  font-size: 0.85rem;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.form__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #2f855a;
+}
+
+/* Elemento: linha de checkbox + texto */
+.form__checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form__checkbox {
+  margin-top: 3px;
+}
+
+.form__checkbox-label {
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+/* Modificadores: variações do formulário por tela */
+.form--newsletter {
+  /* estrutura padrão já cobre esta variação */
+}
+
+.form--login {
+  /* reservado para ajustes específicos da tela de login */
+}
+
+.form--cadastro {
+  /* reservado para ajustes específicos da tela de cadastro */
+}
