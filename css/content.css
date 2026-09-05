@@ -1,0 +1,114 @@
+/* ======================================================
+   Bloco: content-columns
+   Layout com duas colunas: posts em destaque + escolhas do editor
+   ====================================================== */
+
+.content-columns {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+  align-items: flex-start;
+}
+
+.content-columns__primary {
+  flex: 2;
+}
+
+.content-columns__secondary {
+  flex: 1;
+}
+
+/* ======================================================
+   Bloco: featured-posts
+   Componente "Postagens em Destaque"
+   ====================================================== */
+
+.featured-posts__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.featured-posts__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Elemento: cada item da lista de posts (imagem + texto) */
+.featured-posts__item {
+  display: flex;
+  gap: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.featured-posts__image {
+  width: 100px;
+  height: 100px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.featured-posts__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-posts__meta {
+  font-size: 0.85rem;
+  color: #777777;
+  margin-bottom: 6px;
+}
+
+.featured-posts__item-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 6px 0;
+}
+
+.featured-posts__time {
+  font-size: 0.85rem;
+  color: #999999;
+}
+
+/*
+   Bloco: editor-picks
+   Componente "Escolhas do Editor"
+   */
+
+.editor-picks {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.editor-picks__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.editor-picks__list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.editor-picks__item {
+  font-size: 0.95rem;
+  color: #333333;
+}
