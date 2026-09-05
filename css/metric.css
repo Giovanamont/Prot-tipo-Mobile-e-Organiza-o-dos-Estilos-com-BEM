@@ -1,7 +1,26 @@
 .metrics-grid{
-
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    gap: 8px;
 }
 
-.metrics-grid__card_{
+.metric-card{
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
 
+.metric-card__label {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.metric-card__value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
 }
