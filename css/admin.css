@@ -3,18 +3,18 @@ Container usado para separar o menu da
 tabela nas paginas 7,8,9,10
  */
 
-.dashboard-grid{
+.admin-grid{
     display: grid;
     grid-template-columns:1fr 2fr;
-    align-items: start;
     gap: 28px;
     align-items: stretch;
 }
 
 /* 
-Container onde vai ficar a tabela 
+Container onde fica o conteudo da area administrativa
 */
-.dashboard-grid__content {
+.admin-grid__content {
     display: flex;
+    gap: 30px;
     flex-direction: column;
 }
