@@ -1,12 +1,12 @@
 .footer {
     border-top: 1px solid #e5e7eb;
-    padding: 24px;
+    padding: 16px;
 }
 
-.footer__container-tags {
+.footer__tags {
+    flex-wrap: wrap;
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
 }
 
 .footer__tag {
@@ -17,4 +17,10 @@
     font-weight: 600;
     flex: 1 1 10px;
     text-align:left
+}
+
+.footer__copyrigth {
+    margin: 20px auto 0;
+    font-size: 13px;
+    color: #9ca3af;
 }
