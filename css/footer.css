@@ -1,0 +1,22 @@
+.footer {
+    border-top: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+.footer__container-tags {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.footer__tag {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size:14px;
+    font-weight: 600;
+    color: #1f2933;
+    flex: 1 1 10px;
+    text-align:left
+}
