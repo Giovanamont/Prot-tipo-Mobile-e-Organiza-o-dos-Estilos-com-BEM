@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HABIT</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/metric.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+    <header class="navigation">
+        <div class="navigation_list">
+            <a class="navigation__logo"><strong>HABIT</strong></a>
+            <a class="navigation__link">Inicio</a>
+            <a class="navigation__link">Páginas</a>
+            <a class="navigation__link">Destaques</a>
+            <a class="navigation__link">Assinar</a>
+            <a class="navigation__link">Admin</a>
+        </div>
+        <div class="navigation__actions">
+            <input type="text" placeholder="Buscar..." class="navigation__search-input">
+            <button class="button button--outline">Buscar</button>
+            <button class="button button--outline">Entrar</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="admin-grid">  
+            <!-- Menu lateral -->
+            <aside class="menu">
+                <h2 class="menu__title">Menu</h2>
+                <ul class="menu__list">
+                    <li class="menu__item" >Categorias</li>
+                    <li class="menu__item">Criar post</li>
+                    <li class="menu__item">Escolhas do Editor</li>
+                    <li class="menu__item">Usuários</li>
+                    <li class="menu__item">Fila de revisão</li>
+                    <li class="menu__item">Fila de comentários</li>
+                </ul>
+            </aside>
+
+            <!-- Div para o conteudo da tela -->
+            <div class="admin-grid__content">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <p class="metric-card__label">Posts</p>
+                        <p class="metric-card__value">128</p>
+                    </div>
+                    <div class="metric-card">
+                        <p class="metric-card__label">Visualizações</p>
+                        <p class="metric-card__value">54k</p>
+                    </div>
+                    <div class="metric-card">
+                        <p class="metric-card__label">Inscritos</p>
+                        <p class="metric-card__value">12k</p>
+                    </div>
+                    <div class="metric-card">
+                        <p class="metric-card__label">Pendências</p>
+                        <p class="metric-card__value">7</p>
+                    </div>
+                </div>
+                
+                <section class="table-panel">
+                    <h2 class="table-panel__title">Usuários</h2>
+                    <input class="table-panel__search" type="text" placeholder="Buscar...">
+                    <table class="table-content">
+                        <thead">
+                            <tr class="table-content__row">
+                                <th class="table-content__head">Usuário</th>
+                                <th class="table-content__head">E-mail</th>
+                                <th class="table-content__head">Satus</th>
+                                <th class="table-content__head">Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-content__row">
+                                <td class="table-content__cell">Usuário #1</td>
+                                <td class="table-content__cell">email@teste.com</td>
+                                <td class="table-content__cell">Ativo</td>
+                                <td class="table-content__cell">
+                                    <button class="button button--outline">Bloquear</button>
+                                </td>
+                            </tr>
+                            <tr class="table-content__row">
+                                <td class="table-content__cell">Usuário #2</td>
+                                <td class="table-content__cell">email@teste.com</td>
+                                <td class="table-content__cell">Ativo</td>
+                                <td class="table-content__cell">
+                                    <button class="button button--outline">Bloquear</button>
+                                </td>
+                            </tr>
+                            <tr class="table-content__row">
+                                <td class="table-content__cell">Usuário #3</td>
+                                <td class="table-content__cell">email@teste.com</td>
+                                <td class="table-content__cell">Bloqueado</td>
+                                <td class="table-content__cell">
+                                    <button class="button button--outline">Desbloquear</button>
+                                </td>
+                            </tr>
+                            <tr class="table-content__row">
+                                <td class="table-content__cell">Usuário #4</td>
+                                <td class="table-content__cell">email@teste.com</td>
+                                <td class="table-content__cell">Ativo</td>
+                                <td class="table-content__cell">
+                                    <button class="button button--outline">Bloquear</button>
+                                </td>
+                            </tr>
+                            <tr class="table-content__row">
+                                <td class="table-content__cell">Usuário #5</td>
+                                <td class="table-content__cell">email@teste.com</td>
+                                <td class="table-content__cell">Ativo</td>
+                                <td class="table-content__cell">
+                                    <button class="button button--outline">Bloquear</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__tags">
+            <span class="footer__tag">Insta</span>
+            <span class="footer__tag">Work</span>
+            <span class="footer__tag">Bags</span>
+            <span class="footer__tag">Lamp</span>
+            <span class="footer__tag">Books</span>
+        </div">
+    </footer>
+    
+</body>
+</html>
