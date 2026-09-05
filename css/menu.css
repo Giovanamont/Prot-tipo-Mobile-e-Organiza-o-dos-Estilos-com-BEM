@@ -1,0 +1,25 @@
+.menu{
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.menu__title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 14px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu__item {
+    font-size: 14px;
+    color: #374151;
+    position: relative;
+}
