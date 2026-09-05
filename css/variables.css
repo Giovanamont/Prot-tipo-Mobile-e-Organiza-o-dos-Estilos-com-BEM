@@ -1,0 +1,38 @@
+/* 
+Definição do cor padrão do site e da cor padrão do texto 
+e outras definições padrões do sistema
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
+  color: #1f2933;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+ 
+h1, h2, h3, p, ul {
+  margin: 0;
+}
+ 
+ul {
+  padding: 0;
+  list-style: none; /* Remove as bolinhas da lista */
+}
+ 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Classe para tudo todo o conteudo da pagina */
+.page {
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
