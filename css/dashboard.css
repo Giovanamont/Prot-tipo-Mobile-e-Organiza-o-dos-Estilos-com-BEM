@@ -1,0 +1,20 @@
+/* 
+Container usado para separar o menu da 
+tabela nas paginas 7,8,9,10
+ */
+
+.dashboard-grid{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    align-items: start;
+    gap: 28px;
+    align-items: stretch;
+}
+
+/* 
+Container onde vai ficar a tabela 
+*/
+.dashboard-grid__content {
+    display: flex;
+    flex-direction: column;
+}
