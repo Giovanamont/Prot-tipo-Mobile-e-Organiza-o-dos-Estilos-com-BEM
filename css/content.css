@@ -10,6 +10,16 @@
   align-items: flex-start;
 }
 
+.content-columns_perfil{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .content-columns__primary {
   flex: 2;
 }

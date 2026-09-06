@@ -51,3 +51,26 @@
     border-radius: 8px;
     padding: 20px;
 }
+
+.table__perfil {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__perfil td {
+    vertical-align: top;
+}
+
+.table__perfil td:first-child {
+    width: 300px;
+}
+
+.table__perfil td:last-child {
+    width: 100%;
+}
+
+.table__perfil .hero__card {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
