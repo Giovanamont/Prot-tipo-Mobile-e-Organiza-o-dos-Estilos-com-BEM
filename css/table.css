@@ -35,7 +35,6 @@
     border-bottom: 1px solid #e5e7eb;
 }
 
-
 .table-content__row:not(:last-child) {
     border-bottom: 1px solid #e5e7eb;
 }
@@ -44,5 +43,11 @@
     padding: 12px 8px;
     font-size: 14px;
     color: #1f2933;
+}
 
+.table-content__item {
+    background-color: #ffffff ;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
 }
