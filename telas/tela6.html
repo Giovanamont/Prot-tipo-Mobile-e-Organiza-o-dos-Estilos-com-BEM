@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/table.css">
     <link rel="stylesheet" href="../css/image.css">
+    <link rel="stylesheet" href="../css/panel.css">
+    <link rel="stylesheet" href="../css//post-form.css">
 </head>
 <body>
     <header class="navigation">
@@ -68,21 +70,28 @@
                     </div>
                 </div>
                 
-                <section class="table-panel">
-                    <h2 class="table-panel__title">Criar Post</h2>
-                         
-                    
-                    <button type="submit" class="button button--outline">Salvar rascunho</button>
-                    <button type="submit" class="button button--outline">Enviar para revisão</button>
-                    <button type="submit" class="button button--primary">Publicar (admin)</button>
+                <section class="panel">
+                    <h2 class="panel__title">Criar Post</h2>
+                    <form class="post-form">
+                        <input class="post-form__input" type="text" placeholder="Titulo">
+                        <textarea class="post-form__input post-form__input--editor" placeholder="Escreva aqui...(Editor simulador)"></textarea>
+                        <div class="post-form__data">
+                            <input class="post-form__input" type="text" placeholder="Categorias e tags">
+                            <input class="post-form__input" type="text" placeholder="Upload de imagem de capa">            
+                        </div>
+                        <div class="post-form__actions">
+                            <button type="submit" class="button button--outline">Salvar rascunho</button>
+                            <button type="submit" class="button button--outline">Enviar para revisão</button>
+                            <button type="submit" class="button button--primary">Publicar (admin)</button>
+                        </div>
+                    </form>
                 </section>
             </div>
-
         </div>
     </main>
 
     <footer class="footer">
-        <div class="footer__container-tags">
+        <div class="footer__tags">
             <span class="footer__tag">Insta</span>
             <span class="footer__tag">Work</span>
             <span class="footer__tag">Bags</span>
